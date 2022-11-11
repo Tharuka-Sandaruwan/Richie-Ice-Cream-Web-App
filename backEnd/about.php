@@ -37,7 +37,7 @@ if(isset($_SESSION['user_id'])){
 
 <div class="heading">
    <h3>About us</h3>
-   <p><a href="home.php">home</a> <span> / About</span></p>
+   <p><a href="home.php">Home</a> <span> / About</span></p>
 </div>
 
 <!-- about section starts  -->
@@ -47,7 +47,7 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="http://drive.google.com/uc?export=view&id=16KkcrBC8cKf2cB-3nxLF-0nsTp8d8vzi" alt="">
       </div>
 
       <div class="content">
@@ -83,8 +83,8 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="box">
-         <img src="images/step-3.png" alt="">
-         <h3>Enjoy Food</h3>
+         <img src="http://drive.google.com/uc?export=view&id=1q3w1GgAmWC24mjEl88-XCDEoSj8ws2SF" alt="">
+         <h3>Enjoy Icecream</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
 

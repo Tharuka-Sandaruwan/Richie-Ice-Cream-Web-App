@@ -18,7 +18,7 @@
       <div class="box">
          <img src="images/map-icon.png" alt="">
          <h3>Our address</h3>
-         <a href="#">Dalugama, Kelaniya <br> Sri-Lanka</a>
+         <a href="#">Dalugama, Kelaniya </a>
       </div>
 
       <div class="box">
