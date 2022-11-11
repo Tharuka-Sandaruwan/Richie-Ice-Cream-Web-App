@@ -90,22 +90,22 @@ include 'components/add_cart.php';
 
    <div class="box-container">
 
-    <a href="category.php" class="box">
+    <a href="category.php?category=ice creams" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1q3w1GgAmWC24mjEl88-XCDEoSj8ws2SF" alt="">
          <h3>Ice Creams</h3>
       </a>
    
-      <a href="category.php" class="box">
+      <a href="category.php?category=shakes" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1Ss9zLKewavna_FRVkDWAUUi-SOWZgQqS" alt="">
          <h3>Shakes</h3>
       </a>
    
-      <a href="category.php" class="box">
+      <a href="category.php?category=desserts" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1rpx2ShbhO5JYzlzVUN6XZ1sSn3LKrhZE" alt="">
          <h3>Desserts</h3>
       </a>
    
-      <a href="category.php" class="box">
+      <a href="category.php?category=others" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1FtwsU6A_oM6514sjus0VcKtVQKXD4CQH" alt="">
          <h3>Others</h3>
       </a>
