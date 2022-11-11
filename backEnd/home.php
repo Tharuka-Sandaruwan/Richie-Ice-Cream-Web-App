@@ -20,7 +20,7 @@ include 'components/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
@@ -45,34 +45,34 @@ include 'components/add_cart.php';
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
-               <h3>delicious pizza</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <span>Order online</span>
+               <h3>Delicious Ice-Cream</h3>
+               <a href="menu.html" class="btn">See Menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
+               <img src="https://freepngimg.com/thumb/ice%20cream/15-ice-cream-png-image.png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
-               <h3>chezzy hamburger</h3>
+               <span>Order online</span>
+               <h3>Ice Cream Sundae</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="http://drive.google.com/uc?export=view&id=1yuHhT-spvVQOvj4PCqCaO7cLbOv-lt0_" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>order online</span>
-               <h3>rosted chicken</h3>
+               <span>Order online</span>
+               <h3>Frozen yogurt</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="http://drive.google.com/uc?export=view&id=1xrzom-z7F2S3P4l0qn7BMfPZAFB2Dyew" alt="">
             </div>
          </div>
 
@@ -86,29 +86,30 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">food category</h1>
+   <h1 class="title">Category</h1>
 
    <div class="box-container">
 
-      <a href="category.php?category=fast food" class="box">
-         <img src="images/cat-1.png" alt="">
-         <h3>fast food</h3>
+    <a href="category.html" class="box">
+         <img src="http://drive.google.com/uc?export=view&id=1q3w1GgAmWC24mjEl88-XCDEoSj8ws2SF" alt="">
+         <h3>Ice Creams</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="http://drive.google.com/uc?export=view&id=1Ss9zLKewavna_FRVkDWAUUi-SOWZgQqS" alt="">
+         <h3>Shakes</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="http://drive.google.com/uc?export=view&id=1rpx2ShbhO5JYzlzVUN6XZ1sSn3LKrhZE" alt="">
+         <h3>Desserts</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="http://drive.google.com/uc?export=view&id=1FtwsU6A_oM6514sjus0VcKtVQKXD4CQH" alt="">
+         <h3>Others</h3>
       </a>
 
-      <a href="category.php?category=main dish" class="box">
-         <img src="images/cat-2.png" alt="">
-         <h3>main dishes</h3>
-      </a>
-
-      <a href="category.php?category=drinks" class="box">
-         <img src="images/cat-3.png" alt="">
-         <h3>drinks</h3>
-      </a>
-
-      <a href="category.php?category=desserts" class="box">
-         <img src="images/cat-4.png" alt="">
-         <h3>desserts</h3>
-      </a>
 
    </div>
 
@@ -140,7 +141,7 @@ include 'components/add_cart.php';
          <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
          <div class="name"><?= $fetch_products['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
+            <div class="price"><span>LKR</span><?= $fetch_products['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
          </div>
       </form>

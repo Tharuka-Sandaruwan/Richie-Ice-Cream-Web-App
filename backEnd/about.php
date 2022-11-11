@@ -18,7 +18,7 @@ if(isset($_SESSION['user_id'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>About</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
@@ -36,8 +36,8 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>about us</h3>
-   <p><a href="home.php">home</a> <span> / about</span></p>
+   <h3>About us</h3>
+   <p><a href="home.php">home</a> <span> / About</span></p>
 </div>
 
 <!-- about section starts  -->
@@ -66,25 +66,25 @@ if(isset($_SESSION['user_id'])){
 
 <section class="steps">
 
-   <h1 class="title">simple steps</h1>
+   <h1 class="title">Simple steps</h1>
 
    <div class="box-container">
 
       <div class="box">
          <img src="images/step-1.png" alt="">
-         <h3>choose order</h3>
+         <h3>Choose Order</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
-         <h3>fast delivery</h3>
+         <h3>Fast Delivery</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
 
       <div class="box">
          <img src="images/step-3.png" alt="">
-         <h3>enjoy food</h3>
+         <h3>Enjoy Food</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
 
@@ -98,7 +98,7 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
 
-   <h1 class="title">customer's reivews</h1>
+   <h1 class="title">Customer's Reivews</h1>
 
    <div class="swiper reviews-slider">
 

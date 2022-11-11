@@ -35,7 +35,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>placed orders</title>
+   <title>Placed Orders</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -52,7 +52,7 @@ if(isset($_GET['delete'])){
 
 <section class="placed-orders">
 
-   <h1 class="heading">placed orders</h1>
+   <h1 class="heading">Placed Orders</h1>
 
    <div class="box-container">
 
@@ -76,19 +76,19 @@ if(isset($_GET['delete'])){
          <input type="hidden" name="order_id" value="<?= $fetch_orders['id']; ?>">
          <select name="payment_status" class="drop-down">
             <option value="" selected disabled><?= $fetch_orders['payment_status']; ?></option>
-            <option value="pending">pending</option>
-            <option value="completed">completed</option>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
          </select>
          <div class="flex-btn">
             <input type="submit" value="update" class="btn" name="update_payment">
-            <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+            <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">Delete</a>
          </div>
       </form>
    </div>
    <?php
       }
    }else{
-      echo '<p class="empty">no orders placed yet!</p>';
+      echo '<p class="empty">No orders placed yet!</p>';
    }
    ?>
 

@@ -46,7 +46,7 @@ if(isset($_SESSION['user_id'])){
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email']; ?></span></p>
       <a href="update_profile.php" class="btn">update info</a>
       <p class="address"><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
-      <a href="update_address.php" class="btn">update address</a>
+      <a href="update_address.php" class="btn">Update Address</a>
    </div>
 
 </section>

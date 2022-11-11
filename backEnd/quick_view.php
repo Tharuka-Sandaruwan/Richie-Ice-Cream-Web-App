@@ -20,7 +20,7 @@ include 'components/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>quick view</title>
+   <title>Quick View</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -35,7 +35,7 @@ include 'components/add_cart.php';
 
 <section class="quick-view">
 
-   <h1 class="title">quick view</h1>
+   <h1 class="title">Quick View</h1>
 
    <?php
       $pid = $_GET['pid'];
@@ -53,7 +53,7 @@ include 'components/add_cart.php';
       <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="flex">
-         <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
+         <div class="price"><span>LKR </span><?= $fetch_products['price']; ?></div>
          <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
       </div>
       <button type="submit" name="add_to_cart" class="cart-btn">add to cart</button>
