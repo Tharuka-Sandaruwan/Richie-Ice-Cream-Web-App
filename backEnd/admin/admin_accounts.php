@@ -1,9 +1,8 @@
 <?php
-//tharuka
 
 include '../components/connect.php';
 
-//ashen test
+
 
 session_start();
 
