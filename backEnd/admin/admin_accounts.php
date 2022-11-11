@@ -2,6 +2,8 @@
 
 include '../components/connect.php';
 
+//ashen test
+
 session_start();
 
 $admin_id = $_SESSION['admin_id'];
