@@ -1,4 +1,5 @@
 <?php
+//tharuka
 
 include '../components/connect.php';
 
