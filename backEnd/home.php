@@ -47,7 +47,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>Order online</span>
                <h3>Delicious Ice-Cream</h3>
-               <a href="menu.html" class="btn">See Menus</a>
+               <a href="menu.php" class="btn">See Menus</a>
             </div>
             <div class="image">
                <img src="https://freepngimg.com/thumb/ice%20cream/15-ice-cream-png-image.png" alt="">
@@ -58,7 +58,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>Order online</span>
                <h3>Ice Cream Sundae</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="http://drive.google.com/uc?export=view&id=1yuHhT-spvVQOvj4PCqCaO7cLbOv-lt0_" alt="">
@@ -69,7 +69,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>Order online</span>
                <h3>Frozen yogurt</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="http://drive.google.com/uc?export=view&id=1xrzom-z7F2S3P4l0qn7BMfPZAFB2Dyew" alt="">
@@ -95,17 +95,17 @@ include 'components/add_cart.php';
          <h3>Ice Creams</h3>
       </a>
    
-      <a href="category.html" class="box">
+      <a href="category.php" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1Ss9zLKewavna_FRVkDWAUUi-SOWZgQqS" alt="">
          <h3>Shakes</h3>
       </a>
    
-      <a href="category.html" class="box">
+      <a href="category.php" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1rpx2ShbhO5JYzlzVUN6XZ1sSn3LKrhZE" alt="">
          <h3>Desserts</h3>
       </a>
    
-      <a href="category.html" class="box">
+      <a href="category.php" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1FtwsU6A_oM6514sjus0VcKtVQKXD4CQH" alt="">
          <h3>Others</h3>
       </a>
