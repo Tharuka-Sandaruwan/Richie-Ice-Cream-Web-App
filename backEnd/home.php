@@ -90,7 +90,7 @@ include 'components/add_cart.php';
 
    <div class="box-container">
 
-    <a href="category.html" class="box">
+    <a href="category.php" class="box">
          <img src="http://drive.google.com/uc?export=view&id=1q3w1GgAmWC24mjEl88-XCDEoSj8ws2SF" alt="">
          <h3>Ice Creams</h3>
       </a>
