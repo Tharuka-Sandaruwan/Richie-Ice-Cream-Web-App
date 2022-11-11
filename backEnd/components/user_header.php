@@ -15,14 +15,14 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a href="home.php" class="logo">yum-yum 😋</a>
+      <a href="home.php" class="logo">RICHIE ICE-CREAM🍦😋</a>
 
       <nav class="navbar">
-         <a href="home.php">home</a>
-         <a href="about.php">about</a>
-         <a href="menu.php">menu</a>
-         <a href="orders.php">orders</a>
-         <a href="contact.php">contact</a>
+         <a href="home.php">Home</a>
+         <a href="about.php">About</a>
+         <a href="menu.php">Menu</a>
+         <a href="orders.php">Orders</a>
+         <a href="contact.php">Contact</a>
       </nav>
 
       <div class="icons">
@@ -46,18 +46,18 @@ if(isset($message)){
          ?>
          <p class="name"><?= $fetch_profile['name']; ?></p>
          <div class="flex">
-            <a href="profile.php" class="btn">profile</a>
-            <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
+            <a href="profile.php" class="btn">Profile</a>
+            <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Logout</a>
          </div>
          <p class="account">
-            <a href="login.php">login</a> or
-            <a href="register.php">register</a>
+            <a href="login.php">Login</a> or
+            <a href="register.php">Register</a>
          </p> 
          <?php
             }else{
          ?>
-            <p class="name">please login first!</p>
-            <a href="login.php" class="btn">login</a>
+            <p class="name">Please login first!</p>
+            <a href="login.php" class="btn">Login</a>
          <?php
           }
          ?>
