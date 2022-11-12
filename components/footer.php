@@ -5,8 +5,8 @@
       <div class="box">
          <img src="images/email-icon.png" alt="">
          <h3>our email</h3>
-         <a href="mailto:shaikhanas@gmail.com">GROUP01@gmail.com</a>
-         <a href="mailto:anasbhai@gmail.com">MIT@gmail.com</a>
+         <a href="mailto:GROUP01@kln.ac.lk">GROUP01@kln.ac.lk</a>
+         <a href="mailto:MIT@kln.ac.lk">MIT@kln.ac.lk</a>
       </div>
 
       <div class="box">
