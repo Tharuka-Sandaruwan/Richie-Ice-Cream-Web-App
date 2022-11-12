@@ -86,7 +86,7 @@ $grand_total = 0;
          <img src="uploaded_img/<?= $fetch_cart['image']; ?>" alt="">
          <div class="name"><?= $fetch_cart['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>LKR</span><?= $fetch_cart['price']; ?></div>
+            <div class="price"><span>LKR </span><?= $fetch_cart['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="<?= $fetch_cart['quantity']; ?>" maxlength="2">
             <button type="submit" class="fas fa-edit" name="update_qty"></button>
          </div>
@@ -103,7 +103,7 @@ $grand_total = 0;
    </div>
 
    <div class="cart-total">
-      <p>cart total : <span>LKR<?= $grand_total; ?></span></p>
+      <p>cart total : <span>LKR <?= $grand_total; ?></span></p>
       <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
    </div>
 
