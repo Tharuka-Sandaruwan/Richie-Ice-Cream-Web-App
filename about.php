@@ -83,7 +83,7 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="box">
-         <img src="http://drive.google.com/uc?export=view&id=1q3w1GgAmWC24mjEl88-XCDEoSj8ws2SF" alt="">
+         <img src="images/drive_images/Ice cream.png" alt="">
          <h3>Enjoy Icecream</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
