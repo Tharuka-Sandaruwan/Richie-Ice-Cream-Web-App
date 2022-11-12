@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
       <input type="text" class="box" placeholder="Address Line 2 (optional)" maxlength="50" name="addr2">
       <input type="text" class="box" placeholder="Address Line 3 (optional)" maxlength="50" name="addr3">
       <input type="text" class="box" placeholder="City" required maxlength="50" name="city">
-      <input type="text" class="box" placeholder="Postal Code" required maxlength="50" name="postCode">
+      <input type="number" class="box" placeholder="Postal Code" required  name="postCode" min="0" max="99999" maxlength="5">
       <input type="text" class="box" placeholder="District" required maxlength="50" name="district">
       <!-- <label><h3 class ="form-container">Sri Lanka</h3></label> -->
       
