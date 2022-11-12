@@ -219,7 +219,7 @@ if(isset($_SESSION['user_id'])){
 
 
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
