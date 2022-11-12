@@ -8,7 +8,7 @@ if(isset($_SESSION['user_id'])){
    $user_id = $_SESSION['user_id'];
 }else{
    $user_id = '';
-   header('location:home.php');
+   header('location:index.php');
 };
 
 if(isset($_POST['submit'])){
@@ -75,7 +75,7 @@ if(isset($_POST['submit'])){
 
 <div class="heading">
    <h3>checkout</h3>
-   <p><a href="home.php">Home</a> <span> / Checkout</span></p>
+   <p><a href="index.php">Home</a> <span> / Checkout</span></p>
 </div>
 
 <section class="checkout">
