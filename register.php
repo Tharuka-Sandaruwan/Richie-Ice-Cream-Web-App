@@ -63,6 +63,7 @@ if(isset($_POST['submit'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <script src="js/validator.js"></script>
 </head>
 <body>
    
@@ -74,12 +75,12 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>register now</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box" maxlength="50">
-      <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="number" name="number" required placeholder="enter your number" class="box" min="0" max="9999999999" maxlength="10">
+      <input type="text" id="name"  name="name" required placeholder="enter your name" class="box" maxlength="50">
+      <input type="email" id="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="number" id="number" name="number" required placeholder="enter your number" class="box" min="0" max="9999999999" maxlength="10">
       <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="cpass" required placeholder="confirm your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="register now" name="submit" class="btn">
+      <input type="button" id ="submitBtn" value="register now" name="submit" class="btn">
       <p>Already have an account? <a href="login.php">Login now</a></p>
    </form>
 
