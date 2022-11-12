@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
 
    $name = $_POST['name'];
    $name = filter_var($name, FILTER_SANITIZE_STRING);
-   $email = $_POST['email'];
+   $email = strtolower($_POST['email']);
    $email = filter_var($email, FILTER_SANITIZE_STRING);
    $number = $_POST['number'];
    $number = filter_var($number, FILTER_SANITIZE_STRING);
@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
          $row = $select_user->fetch(PDO::FETCH_ASSOC);
          if($select_user->rowCount() > 0){
             $_SESSION['user_id'] = $row['id'];
-            header('location:home.php');
+            header('location:update_address.php');
          }
       }
    }
