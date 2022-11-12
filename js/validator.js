@@ -1,3 +1,4 @@
+/*
 function ValidateEmail(mail) 
 {
  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
@@ -8,13 +9,13 @@ function ValidateEmail(mail)
     return (false)
 }
 
-
+*/
 
 // below my code
 
 function submitter() {
     var btn = document.getElementById("submitBtn");
-
+    btn.type = "button";
     var name = document.getElementById("name").value;
     var tele = document.getElementById("number").value;
     var email = document.getElementById("email").value;
@@ -29,11 +30,16 @@ function submitter() {
         else {
             alert("You have entered an invalid email address!");
             return false;
+            
         }
     }
 
     function phonenumber() {
-        var phoneno = /^\d{10}$/;
+        
+
+        var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/ ;
+        
+        // /^\d{10}$/;
         // /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/
         // /^(\([0-9]{3}\)\s?|[0-9]{3}-)[0-9]{3}-[0-9]{4}$/
         if (tele.match(phoneno)) {
@@ -47,10 +53,9 @@ function submitter() {
 
 
     if (name == "" || name == null) {
-        alert("Student name is empty!");
+        alert("Name is empty!");
     } else {
         if (ValidateEmail() && phonenumber()) {
-            alert("Data Validated Successfully!");
             btn.type = "submit"; //change the button type to submit,so data will be entered to the db                    
         }
     }

@@ -80,7 +80,7 @@ if(isset($_POST['submit'])){
       <input type="number" id="number" name="number" required placeholder="enter your number" class="box" min="0" max="9999999999" maxlength="10">
       <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="cpass" required placeholder="confirm your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="button" id ="submitBtn" value="register now" name="submit" class="btn">
+      <input type="button" onClick = "submitter();" id ="submitBtn" value="register now" name="submit" class="btn">
       <p>Already have an account? <a href="login.php">Login now</a></p>
    </form>
 
