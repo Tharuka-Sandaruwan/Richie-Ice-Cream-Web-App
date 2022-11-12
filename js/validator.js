@@ -1,18 +1,3 @@
-/*
-function ValidateEmail(mail) 
-{
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
-  {
-    return (true)
-  }
-    alert("You have entered an invalid email address!")
-    return (false)
-}
-
-*/
-
-// below my code
-
 function submitter() {
     var btn = document.getElementById("submitBtn");
     btn.type = "button";
@@ -38,7 +23,7 @@ function submitter() {
         
 
         var phoneno = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/ ;
-        
+
         // /^\d{10}$/;
         // /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/
         // /^(\([0-9]{3}\)\s?|[0-9]{3}-)[0-9]{3}-[0-9]{4}$/
