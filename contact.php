@@ -52,6 +52,7 @@ if(isset($_POST['send'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <script src="js/validator.js"></script>
 
 </head>
 <body>
@@ -77,11 +78,11 @@ if(isset($_POST['send'])){
 
       <form action="" method="post">
          <h3>tell us something!</h3>
-         <input type="text" name="name" maxlength="50" class="box" placeholder="enter your name" required>
-         <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your number" required maxlength="10">
-         <input type="email" name="email" maxlength="50" class="box" placeholder="enter your email" required>
+         <input type="text" id="name" name="name" maxlength="50" class="box" placeholder="enter your name" required>
+         <input type="email" id="email" name="email" maxlength="50" class="box" placeholder="enter your email" required>
+         <input type="number" id="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your number" required maxlength="10">
          <textarea name="msg" class="box" required placeholder="enter your message" maxlength="500" cols="30" rows="10"></textarea>
-         <input type="submit" value="send message" name="send" class="btn">
+         <input type="button" onClick="submitter();" id="submitBtn" value="send message" name="send" class="btn">
       </form>
 
    </div>
