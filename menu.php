@@ -44,7 +44,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">Latest dishes</h1>
+   <h1 class="title">Latest Products</h1>
 
    <div class="box-container">
 
