@@ -39,6 +39,9 @@ if(isset($_POST['submit'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+
+  
+
 </head>
 <body>
    
@@ -54,7 +57,7 @@ if(isset($_POST['submit'])){
       <input type="text" class="box" placeholder="City" required maxlength="50" name="city">
       <input type="text" class="box" placeholder="Postal Code" required maxlength="50" name="postCode">
       <input type="text" class="box" placeholder="District" required maxlength="50" name="district">
-      <label><h3 class ="form-container">Sri Lanka</h3></label>
+      <!-- <label><h3 class ="form-container">Sri Lanka</h3></label> -->
       
       <input type="submit" value="save address" name="submit" class="btn">
    </form>
