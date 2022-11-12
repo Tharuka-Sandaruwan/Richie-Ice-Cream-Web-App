@@ -1,8 +1,8 @@
 <?php
 
-$db_name = 'mysql:host=localhost;dbname=food_db';
-$user_name = 'root';
-$user_password = 'Nappa20000614';
+$db_name = 'mysql:host=128.199.65.55;dbname=food_db';
+$user_name = 'mit';
+$user_password = 'weAre!m1ttos';
 
 $conn = new PDO($db_name, $user_name, $user_password);
 
