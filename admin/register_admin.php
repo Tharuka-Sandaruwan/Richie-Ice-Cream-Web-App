@@ -12,7 +12,7 @@ if(!isset($admin_id)){
 
 if(isset($_POST['submit'])){
 
-   $name = $_POST['name'];
+   $name = strtolower($_POST['name'] );
    $name = filter_var($name, FILTER_SANITIZE_STRING);
    $pass = sha1($_POST['pass']);
    $pass = filter_var($pass, FILTER_SANITIZE_STRING);
@@ -63,7 +63,7 @@ if(isset($_POST['submit'])){
 
    <form action="" method="POST">
       <h3>Register new</h3>
-      <input type="text" name="name" maxlength="20" required placeholder="enter your username" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="text" name="name" maxlength="20" required placeholder="enter your username (lowercase)" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" maxlength="20" required placeholder="enter your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="cpass" maxlength="20" required placeholder="confirm your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="register now" name="submit" class="btn">
