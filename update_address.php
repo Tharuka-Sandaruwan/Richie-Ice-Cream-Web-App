@@ -13,7 +13,7 @@ if(isset($_SESSION['user_id'])){
 
 if(isset($_POST['submit'])){
 
-   $address = $_POST['flat'] .', '.$_POST['building'].', '.$_POST['area'].', '.$_POST['town'] .', '. $_POST['city'] .', '. $_POST['state'] .', '. $_POST['country'] .' - '. $_POST['pin_code'];
+   $address = $_POST['addr1'] .', '.$_POST['addr2'].', '.$_POST['addr3'].', '.$_POST['city'] .', '. $_POST['postCode'] .', '. $_POST['district'] .', Sri Lanka. ';
    $address = filter_var($address, FILTER_SANITIZE_STRING);
 
    $update_address = $conn->prepare("UPDATE `users` set address = ? WHERE id = ?");
@@ -48,14 +48,14 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>Your Address</h3>
-      <input type="text" class="box" placeholder="flat no." required maxlength="50" name="flat">
-      <input type="text" class="box" placeholder="building no." required maxlength="50" name="building">
-      <input type="text" class="box" placeholder="area name" required maxlength="50" name="area">
-      <input type="text" class="box" placeholder="town name" required maxlength="50" name="town">
-      <input type="text" class="box" placeholder="city name" required maxlength="50" name="city">
-      <input type="text" class="box" placeholder="state name" required maxlength="50" name="state">
-      <input type="text" class="box" placeholder="country name" required maxlength="50" name="country">
-      <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code">
+      <input type="text" class="box" placeholder="Address Line 1" required maxlength="50" name="addr1">
+      <input type="text" class="box" placeholder="Address Line 2 (optional)" maxlength="50" name="addr2">
+      <input type="text" class="box" placeholder="Address Line 3 (optional)" maxlength="50" name="addr3">
+      <input type="text" class="box" placeholder="City" required maxlength="50" name="city">
+      <input type="text" class="box" placeholder="Postal Code" required maxlength="50" name="postCode">
+      <input type="text" class="box" placeholder="District" required maxlength="50" name="district">
+      <label><h3 class ="form-container">Sri Lanka</h3></label>
+      
       <input type="submit" value="save address" name="submit" class="btn">
    </form>
 
