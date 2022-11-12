@@ -25,7 +25,7 @@ include 'components/add_cart.php';
    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -50,7 +50,7 @@ include 'components/add_cart.php';
                <a href="menu.php" class="btn">See Menus</a>
             </div>
             <div class="image">
-               <img src="https://freepngimg.com/thumb/ice%20cream/15-ice-cream-png-image.png" alt="">
+               <img src="images/drive_images/ice-cream-png-image.png" alt="">
             </div>
          </div>
 
