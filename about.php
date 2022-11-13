@@ -52,7 +52,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque debitis incidunt qui ipsum sed doloremque a molestiae in veritatis ullam similique sunt aliquam dolores dolore? Quasi atque debitis nobis!</p>
+         <p>Since our inception, we have operated as a client-focused business. We make every effort to satisfy our customers' needs in terms of superior flavor, appropriate packaging, and prompt delivery. Our trustworthy business practices, adaptability, and creative thinking keep us one step ahead of our competitors.</p>
          <a href="menu.php" class="btn">our menu</a>
       </div>
 
@@ -73,19 +73,19 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>Choose Order</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>Find your favorite ice cream flavors and types, right in your area!</p>
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>Fast Delivery</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>Your favorite Richie Ice-creams delivered to your door. Choose your location to find out if Richie delivery is available near you.</p>
       </div>
 
       <div class="box">
          <img src="images/drive_images/Ice cream.png" alt="">
          <h3>Enjoy Icecream</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>The best way to enjoy ice cream is by eating it! There are limitless ways to have your ice cream and eat it, too, and once you’ve gotten your ice cream, you can officially have a great day!</p>
       </div>
 
    </div>
@@ -106,7 +106,9 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/pic-1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Really good...
+The Ice Creams are fresh and really tasty.
+The staff is courteous too. Amidst the array of flavors, rolled ice-creams are THE best...</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -119,7 +121,9 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/pic-2.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Wowzer! Wow! Wow!
+This is some of the best ice cream found in Sri Lanka. Everyone in our group loved it. Mango was the bomb dot com. Others like coco crunch, coco almond. Service was fast. Staff were very friendly. The shop was very clean. Highly recommend!
+</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -132,7 +136,7 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/pic-3.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Five Star rating for Ice cream!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -145,7 +149,7 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/pic-4.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>This place is very relaxing. Ice cream is awesome! And is within a reasonable price range.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
