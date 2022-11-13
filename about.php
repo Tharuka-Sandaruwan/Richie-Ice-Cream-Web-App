@@ -51,8 +51,8 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Since our inception, we have operated as a client-focused business. We make every effort to satisfy our customers' needs in terms of superior flavor, appropriate packaging, and prompt delivery. Our trustworthy business practices, adaptability, and creative thinking keep us one step ahead of our competitors.</p>
+         <h3>Why choose us?</h3>
+         <p>Since its establishment in 2004, Richie Ice Cream has made it's name in the local frozen dessert industry, particularly with its main partner, Yarl Ice Cream. <br>Offerring a mouth watering variety of ice creams, sundaes, fruit salads, milkshakes and other refreshing goodies, we at Richie Ice Cream are ready to take it to the next level with our online shop. <br>Explore our wide range of desserts and get your favourite delivered straight to your doorstep with a simple click! </p>
          <a href="menu.php" class="btn">our menu</a>
       </div>
 
@@ -84,8 +84,8 @@ if(isset($_SESSION['user_id'])){
 
       <div class="box">
          <img src="images/drive_images/Ice cream.png" alt="">
-         <h3>Enjoy Icecream</h3>
-         <p>The best way to enjoy ice cream is by eating it! There are limitless ways to have your ice cream and eat it, too, and once you’ve gotten your ice cream, you can officially have a great day!</p>
+         <h3>Enjoy Ice cream</h3>
+         <p>The best way to enjoy ice cream is by eating it! There are limitless ways to have your ice cream and enjoy it.And remember, an ice cream filled day is the best day!</p>
       </div>
 
    </div>
@@ -116,7 +116,7 @@ The staff is courteous too. Amidst the array of flavors, rolled ice-creams are T
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Jeffrey Vasantham</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -131,7 +131,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Supun Fernando</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -144,7 +144,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Ranuli Wijerathne</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -157,12 +157,12 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Ifhalm Ahamed</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-5.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>I loved the staff! I loved the Ice creams! Definitely a must try!!!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
