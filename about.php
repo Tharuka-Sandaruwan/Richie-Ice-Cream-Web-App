@@ -73,19 +73,19 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>Choose Order</h3>
-         <p>Find your favorite ice cream flavors and types, right in your area!</p>
+         <p>Select your order from an array of frozen delicacies!</p>
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>Fast Delivery</h3>
-         <p>Your favorite Richie Ice-creams delivered to your door. Choose your location to find out if Richie delivery is available near you.</p>
+         <p>Your favorite Richie products delivered straight to your door.</p>
       </div>
 
       <div class="box">
          <img src="images/drive_images/Ice cream.png" alt="">
          <h3>Enjoy Ice cream</h3>
-         <p>The best way to enjoy ice cream is by eating it! There are limitless ways to have your ice cream and enjoy it.And remember, an ice cream filled day is the best day!</p>
+         <p>Enjoy your favourite desserts alone or with your loved ones. No one says no to ice cream!</p>
       </div>
 
    </div>
@@ -98,7 +98,7 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
 
-   <h1 class="title">Customer's Reivews</h1>
+   <h1 class="title">Customer's Reviews</h1>
 
    <div class="swiper reviews-slider">
 
@@ -116,13 +116,13 @@ The staff is courteous too. Amidst the array of flavors, rolled ice-creams are T
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Jeffrey Vasantham</h3>
+            <h3>Aaliya Nawaz</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-2.png" alt="">
             <p>Wowzer! Wow! Wow!
-This is some of the best ice cream found in Sri Lanka. Everyone in our group loved it. Mango was the bomb dot com. Others like coco crunch, coco almond. Service was fast. Staff were very friendly. The shop was very clean. Highly recommend!
+This is some of the best ice cream found in Sri Lanka. Everyone in our group loved it. Mango was the bomb dot com. Service was fast. Staff were very friendly. The shop was very clean. Highly recommend!
 </p>
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -131,12 +131,12 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Supun Fernando</h3>
+            <h3>Supun Jayaratne</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-3.png" alt="">
-            <p>Five Star rating for Ice cream!</p>
+            <p>Five Star rating for five star Ice cream! Top notch service!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -144,7 +144,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Ranuli Wijerathne</h3>
+            <h3>Gayani Fernando</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -170,12 +170,12 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3></h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-6.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Will definetely recommend! My favourite is the sorbet!!!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -183,7 +183,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Neela Gunaratne</h3>
          </div>
 
       </div>
