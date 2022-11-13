@@ -52,7 +52,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Why choose us?</h3>
-         <p>Since its establishment in 2004, Richie Ice Cream has made it's name in the local frozen dessert industry, particularly with its main partner, Yarl Ice Cream. <br>Offerring a mouth watering variety of ice creams, sundaes, fruit salads, milkshakes and other refreshing goodies, we at Richie Ice Cream are ready to take it to the next level with our online shop. <br>Explore our wide range of desserts and get your favourite delivered straight to your doorstep with a simple click! </p>
+         <p>Since its establishment in 2004, Richie Ice Cream has made it's name in the local frozen dessert industry, particularly with its main partner, Yarl Ice Cream. <br>Offering a mouth watering variety of ice creams, sundaes, fruit salads, milkshakes and other refreshing goodies, we at Richie Ice Cream are ready to take it to the next level with our online shop. <br>Explore our wide range of desserts and get your favourite delivered straight to your doorstep with a simple click! </p>
          <a href="menu.php" class="btn">our menu</a>
       </div>
 
@@ -85,7 +85,7 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <img src="images/drive_images/Ice cream.png" alt="">
          <h3>Enjoy Ice cream</h3>
-         <p>Enjoy your favourite desserts alone or with your loved ones. No one says no to ice cream!</p>
+         <p>Enjoy your favourite desserts and spread the word!. No one says no to ice cream!</p>
       </div>
 
    </div>

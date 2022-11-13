@@ -77,7 +77,7 @@ if(isset($_POST['send'])){
       </div>
 
       <form action="" method="post">
-         <h3>tell us something!</h3>
+         <h3>Get in touch!</h3>
          <input type="text" id="name" name="name" maxlength="50" class="box" placeholder="enter your name" required>
          <input type="email" id="email" name="email" maxlength="50" class="box" placeholder="enter your email" required>
          <input type="number" id="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your number" required maxlength="10">

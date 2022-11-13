@@ -18,13 +18,13 @@
       <div class="box">
          <img src="images/map-icon.png" alt="">
          <h3>Our Address</h3>
-         <a href="#">Dalugama, Kelaniya </a>
+         <a href="#">Kurumankadu, Mannar Rd, Vavuniya </a>
       </div>
 
       <div class="box">
          <img src="images/phone-icon.png" alt="">
          <h3>Contact Us</h3>
-         <a href="tel:1234567890">123-456-7890</a>
+         <a href="tel:1234567890">076-767-6810</a>
          <a href="tel:1112223333">111-222-3333</a>
       </div>
 

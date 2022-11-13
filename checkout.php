@@ -104,8 +104,8 @@ if(isset($_POST['submit'])){
             echo '<p class="empty">your cart is empty!</p>';
          }
       ?>
-      <p class="grand-total"><span class="name">grand total :</span><span class="price">LKR <?= $grand_total; ?></span></p>
-      <a href="cart.php" class="btn">Veiw Cart</a>
+      <p class="grand-total"><span class="name">Grand total :</span><span class="price">LKR <?= $grand_total; ?></span></p>
+      <a href="cart.php" class="btn">View Cart</a>
    </div>
 
    <input type="hidden" name="total_products" value="<?= $total_products; ?>">
