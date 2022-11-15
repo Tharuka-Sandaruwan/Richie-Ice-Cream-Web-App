@@ -42,6 +42,7 @@ if(isset($_POST['submit'])){
          $delete_cart->execute([$user_id]);
 
          $message[] = 'order placed successfully!';
+         header('location:orders.php');
       }
       
    }else{
