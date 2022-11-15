@@ -105,7 +105,7 @@ if(isset($_SESSION['user_id'])){
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <img src="images/pic-1.png" alt="">
+            
             <p>Really good...
 The Ice Creams are fresh and really tasty.
 The staff is courteous too. Amidst the array of flavors, rolled ice-creams are THE best...</p>
