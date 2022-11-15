@@ -105,7 +105,7 @@ if(isset($_SESSION['user_id'])){
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            
+            <img src="images/pic-1.png" alt="">
             <p>Really good...
 The Ice Creams are fresh and really tasty.
 The staff is courteous too. Amidst the array of flavors, rolled ice-creams are THE best...</p>
@@ -116,7 +116,7 @@ The staff is courteous too. Amidst the array of flavors, rolled ice-creams are T
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Aaliya Nawaz</h3>
+            <h3>Supun Jayaratne</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -131,7 +131,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Supun Jayaratne</h3>
+            <h3>Aaliya Nawaz</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -144,7 +144,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Gayani Fernando</h3>
+            <h3>Ifhalm Ahamed</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -157,7 +157,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Ifhalm Ahamed</h3>
+            <h3>Gayani Fernando</h3>
          </div>
 
          <div class="swiper-slide slide">
@@ -170,7 +170,7 @@ This is some of the best ice cream found in Sri Lanka. Everyone in our group lov
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3></h3>
+            <h3>Kumar Vasantham</h3>
          </div>
 
          <div class="swiper-slide slide">
