@@ -34,9 +34,10 @@ include 'components/add_cart.php';
 <?php include 'components/user_header.php'; ?>
 
 <section class="products">
-
-   <h1 class="title">Dessert Category</h1>
-
+<?php 
+$category = $_GET['category'];
+   echo "<h1 class='title'>$category Category</h1>";
+   ?>
    <div class="box-container">
 
       <?php
