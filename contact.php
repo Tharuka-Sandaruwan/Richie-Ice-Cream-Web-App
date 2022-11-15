@@ -80,7 +80,7 @@ if(isset($_POST['send'])){
          <h3>Get in touch!</h3>
          <input type="text" id="name" name="name" maxlength="50" class="box" placeholder="enter your name" required>
          <input type="email" id="email" name="email" maxlength="50" class="box" placeholder="enter your email" required>
-         <input type="number" id="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your number" required maxlength="10">
+         <input type="tel" id="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your phone number" required maxlength="10">
          <textarea name="msg" class="box" required placeholder="enter your message" maxlength="500" cols="30" rows="10"></textarea>
          <input type="button" onClick="submitter();" id="submitBtn" value="send message" name="send" class="btn">
       </form>
